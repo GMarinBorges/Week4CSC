@@ -18,12 +18,7 @@ namespace W3Assigment.Controllers
             return list.OrderBy(x => x).ToList();
         }
 
-        //Function LogObject() New addition to Week 5
-        string LogObject(string input)
-        {
-            System.Diagnostics.Debug.WriteLine(input);
-            return input;
-        }
+
 
         //StandardDeviation Function
         double standardDeviation(List<double> n)
@@ -47,8 +42,7 @@ namespace W3Assigment.Controllers
                 {
                     double res = standardDeviation(sorted.GetRange(0, counter));
                     listaHija.Add("Elements: " + counter + " Current Standard Deviation: " + res);
-                    //Call New Function LogObject()
-                    System.Console.WriteLine(LogObject(res.ToString()));
+
                 }
                 else
                 {
