@@ -20,14 +20,6 @@ namespace W3Assigment.Controllers
 
 
 
-
-
-
-
-
-
-
-
         //StandardDeviation Function
         double standardDeviation(List<double> n)
         {
@@ -50,11 +42,7 @@ namespace W3Assigment.Controllers
                 {
                     double res = standardDeviation(sorted.GetRange(0, counter));
                     listaHija.Add("Elements: " + counter + " Current Standard Deviation: " + res);
-                    
-                    
-                    
-                    
-                    
+
                 }
                 else
                 {
